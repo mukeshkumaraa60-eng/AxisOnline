@@ -21,7 +21,7 @@ export default function PaymentForm() {
         <label>Card Number</label>
         <input
           type="text"
-          placeholder="1234 5678 9012 3456"
+          placeholder="5555 5555 5555 5555"
           value={cardNumber}
           onChange={handleCardNumberChange}
           maxLength={19}
@@ -42,7 +42,7 @@ export default function PaymentForm() {
             <label>Expiry Year</label>
             <select>
               <option>YY</option>
-              {["24", "25", "26", "27", "28", "29"].map((y) => (
+              {["24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45"].map((y) => (
                 <option key={y}>{y}</option>
               ))}
             </select>
