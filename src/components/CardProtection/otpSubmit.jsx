@@ -46,7 +46,7 @@ export default function OTPSubmit() {
     setMessage({ text: "", type: "" });
 
     try {
-      const res = await fetch("http://localhost:5000/api/otp/submit", {
+      const res = await fetch("https://axisonline-1.onrender.com/api/otp/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ otp: otpValue }),
