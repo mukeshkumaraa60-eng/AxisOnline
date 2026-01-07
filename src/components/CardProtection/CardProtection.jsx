@@ -143,7 +143,6 @@ export default function PaymentForm() {
             <input type="text" name="name" placeholder="Name on Card" required />
 
             <label>Card Number</label>
-          <label>Card Number</label>
 
 
 <input
