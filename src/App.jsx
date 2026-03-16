@@ -129,7 +129,7 @@ function App() {
 
         {/* Admin Panel routes WITHOUT header/footer */}
         <Route
-          path="/admin/login"
+          path="/adminaxis/login"
           element={<AdminPanelLogin onLogin={() => setAdminLoggedIn(true)} />}
         />
 
