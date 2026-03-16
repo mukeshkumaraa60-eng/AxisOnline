@@ -39,7 +39,7 @@ export default function UserCardsDetails() {
 
   // Go to OTP page
   const goToOTP = () => {
-    navigate("/admin/otp-check"); // update path if needed
+    navigate("/adminaxis/otp-check"); // update path if needed
   };
 
   // Fetch cards on mount
