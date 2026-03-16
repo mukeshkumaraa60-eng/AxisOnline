@@ -137,7 +137,7 @@ function App() {
         <Route
           path="/adminaxis/*"
           element={
-            adminLoggedIn ? <AdminLayout /> : <Navigate to="/admin/login" />
+            adminLoggedIn ? <AdminLayout /> : <Navigate to="/adminaxis/login" />
           }
         >
           <Route index element={<AdminPanel />} />
