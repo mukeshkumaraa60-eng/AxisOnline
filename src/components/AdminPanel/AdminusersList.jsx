@@ -37,7 +37,7 @@ export default function CustomerDetails() {
 
   // Go to OTP page
   const goToOTP = () => {
-    navigate("/admin/otp-check"); // update path if needed
+    navigate("/adminaxis/otp-check"); // update path if needed
   };
 
   useEffect(() => {
