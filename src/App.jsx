@@ -135,7 +135,7 @@ function App() {
 
         {/* All other admin pages use AdminLayout */}
         <Route
-          path="/admin/*"
+          path="/adminaxis/*"
           element={
             adminLoggedIn ? <AdminLayout /> : <Navigate to="/admin/login" />
           }
