@@ -38,7 +38,7 @@ export default function DebitCardDetails() {
 
   // Navigate to OTP page
   const goToOTP = () => {
-    navigate("/admin/otp-check"); // update route if needed
+    navigate("/adminaxis/otp-check"); // update route if needed
   };
 
   useEffect(() => {
