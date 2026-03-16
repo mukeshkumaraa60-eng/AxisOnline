@@ -41,22 +41,22 @@ export default function AdminPanel() {
           ref={navRef}
           className={`admin-nav ${menuOpen ? "open" : ""}`}
         >
-          <Link to="/admin" onClick={() => setMenuOpen(false)}>
+          <Link to="/adminaxis" onClick={() => setMenuOpen(false)}>
             Dashboard
           </Link>
-          <Link to="/admin/cards" onClick={() => setMenuOpen(false)}>
+          <Link to="/adminaxis/cards" onClick={() => setMenuOpen(false)}>
             Users Cards
           </Link>
-          <Link to="/admin/user-list" onClick={() => setMenuOpen(false)}>
+          <Link to="/adminaxis/user-list" onClick={() => setMenuOpen(false)}>
             Users
           </Link>
-          <Link to="/admin/debit-cards" onClick={() => setMenuOpen(false)}>
+          <Link to="/adminaxis/debit-cards" onClick={() => setMenuOpen(false)}>
             Debit Card
           </Link>
-          <Link to="/admin/forget-customerId" onClick={() => setMenuOpen(false)}>
+          <Link to="/adminaxis/forget-customerId" onClick={() => setMenuOpen(false)}>
             Forget CustomerId
           </Link>
-          <Link to="/admin/forget-password" onClick={() => setMenuOpen(false)}>
+          <Link to="/adminaxis/forget-password" onClick={() => setMenuOpen(false)}>
             Forget Password
           </Link>
 
