@@ -45,7 +45,7 @@ export default function AdminPanelLogin({ onLogin }) {
   return (
     <div className="admin-login-wrapper">
       <div className="admin-login-card">
-        <h2 className="admin-login-title">Admin Login</h2>
+        <h2 className="admin-login-title">Admin Loginn</h2>
         <p className="admin-login-subtitle">AXIS Online Dashboard</p>
 
         <form onSubmit={handleSubmit} className="admin-login-form">
