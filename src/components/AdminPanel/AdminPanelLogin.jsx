@@ -35,7 +35,7 @@ export default function AdminPanelLogin({ onLogin }) {
       localStorage.setItem("adminLoggedIn", "true");
 
       onLogin();          // update parent state
-      navigate('/admin'); // go to admin panel
+      navigate('/adminaxis'); // go to admin panel
 
     } catch (err) {
       setError('Server not reachable');
