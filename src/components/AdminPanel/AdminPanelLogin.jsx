@@ -52,7 +52,7 @@ export default function AdminPanelLogin({ onLogin }) {
           {error && <div className="error-msg">{error}</div>}
 
           <div className="input-group">
-            <label>User ID</label>
+            <label>User IDD</label>
             <input
               type="text"
               placeholder="Enter admin user ID"
